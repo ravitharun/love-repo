@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LoveAccept from './LoveAccept.jsx'
+import Accept from './Accept.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/love" element={<LoveAccept />} />
+        <Route path="/accept" element={<Accept />} />
 
       </Routes>
     </BrowserRouter>
