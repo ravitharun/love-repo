@@ -2,7 +2,7 @@ import React from 'react'
 
 function Accept() {
   return (
-    <div>Accept</div>
+    <div>Accept in progress</div>
   )
 }
 
