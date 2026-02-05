@@ -3,6 +3,7 @@ import bgVideo from "./153977-806571978.mp4";
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
+import Loader from './Loader';
 
 function App() {
   const [lovelyName, setlvlyName] = useState("")
