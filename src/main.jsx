@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LoveAccept from './LoveAccept.jsx';
 import Accept from './Accept.jsx';
 import Loader from './Loader.jsx';
-
 // Lazy load App
 const App = lazy(() => import("./App"));
 
