@@ -15,7 +15,7 @@ function LoveAccept() {
     const y = Math.random() * 35 + 55;
 
     setPos({ x, y });
-    setMessage("😝 Nope… you can’t say NO!");
+    setMessage(`😝 Nope… you can’t say NO! ${name}`);
   };
 
   useEffect(() => {
